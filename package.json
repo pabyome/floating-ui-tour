@@ -6,6 +6,10 @@
   "main": "./dist/vue-floating-ui-tour.umd.js",
   "module": "./dist/vue-floating-ui-tour.es.js",
   "types": "./dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pabyome/floating-ui-tour.git"
+  },
   "exports": {
     ".": {
       "import": "./dist/vue-floating-ui-tour.es.js",
