@@ -1,6 +1,6 @@
 {
   "name": "@pabyome/floating-ui-tour",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "description": "A tour library using @floating-ui/dom",
   "main": "./dist/vue-floating-ui-tour.umd.js",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pabyome/floating-ui-tour.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "exports": {
     ".": {
