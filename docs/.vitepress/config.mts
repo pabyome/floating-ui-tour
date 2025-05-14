@@ -25,12 +25,13 @@ export default defineConfig({
           items: [
             { text: 'Getting Started', link: '/guide/getting-started' },
             { text: 'Core Concepts', link: '/guide/core-concepts' },
+            { text: 'Customization', link: '/guide/customization' }
           ]
         },
         {
           text: 'Advanced',
           items: [
-            { text: 'Customization', link: '/guide/customization' },
+            { text: 'Middleware', link: '/guide/middleware' },
           ]
         }
       ],
@@ -38,7 +39,8 @@ export default defineConfig({
         {
           text: 'API Reference',
           items: [
-            { text: 'useTour() & Types', link: '/reference/api' }
+            { text: 'useTour()', link: '/reference/api' },
+            { text: 'types', link: '/reference/types' }
           ]
         }
       ]

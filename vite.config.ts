@@ -16,7 +16,7 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'VueFloatingUITour',
+      name: 'FloatingUITour',
       fileName: (format) => `vue-floating-ui-tour.${format}.js`,
       formats: ['es', 'umd', 'cjs'],
     },
